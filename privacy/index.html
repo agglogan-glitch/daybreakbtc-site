@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Daybreak BTC Privacy Policy</title>
+<meta name="description" content="How the Daybreak BTC app handles your information, in plain words.">
+<link rel="icon" href="../favicon.ico" sizes="any">
+<link rel="icon" href="../logo.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="../apple-touch-icon.png">
+<link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+<!-- Generated from docs/privacy-policy.md by site/build_privacy.py. Edit the Markdown, then re-run. -->
+<header class="bar"><a class="brand" href="../"><img src="../logo.svg" alt="" width="32" height="32"> Daybreak BTC</a></header>
+<main class="doc">
+<h1>Daybreak BTC Privacy Policy</h1>
+<aside class="draft" role="note">
+<!-- REMOVE this draft note from the public page once a lawyer has reviewed the policy. -->
+<p><strong>Draft, not legal advice — have a lawyer review before publishing.</strong><br>
+<em>(Remove this note from the public page once the review is done.)</em></p>
+</aside>
+<p><strong>Effective date:</strong> [EFFECTIVE DATE]</p>
+<p>Daybreak BTC is an app that teaches you about Bitcoin and lets you watch a Bitcoin balance. This page explains, in plain words, what happens with your information.</p>
+<h2 id="the-short-version">The short version</h2>
+<ul>
+  <li>You don't make an account. We never ask for your name, email or phone number.</li>
+  <li>The app can only <strong>watch</strong> a balance. It can never spend or move your bitcoin.</li>
+  <li>The app never asks for, and never saves, your secret words (the 12 or 24 recovery words) or private keys. If you paste them by mistake, the app refuses them and does not save them.</li>
+  <li>What you save stays on your phone (or in your browser, on the web version).</li>
+  <li>We have no servers that collect your data. There are no ads, no analytics and no tracking.</li>
+  <li>To show prices and balances, your phone asks a few public Bitcoin services. They can see your internet address (IP address), like any website can.</li>
+</ul>
+<h2 id="what-we-collect">What we collect</h2>
+<p>Nothing. We (the people who make Daybreak BTC) do not receive any of your information. The app has no sign-in, no analytics, no ad tools and no crash reporting.</p>
+<h2 id="what-stays-on-your-phone">What stays on your phone</h2>
+<p>The app keeps these things on your phone only:</p>
+<ul>
+  <li><strong>Public Bitcoin addresses you add</strong>, and the "whole wallet" public keys (xpub/zpub) you add.</li>
+  <li><strong>Your payment list</strong> for those addresses, copied from public Bitcoin services.</li>
+  <li><strong>What you paid</strong> (prices you type, and price estimates the app works out for you).</li>
+  <li><strong>Lesson progress</strong> (which lessons you finished, and days in a row).</li>
+  <li><strong>Settings</strong>: language, text size, Advanced options on or off, your country if you pick one, and whether you said OK to looking up your address online.</li>
+  <li><strong>Bitcoin prices</strong>, saved so the app works without internet.</li>
+</ul>
+<p>Your addresses, wallet keys, payment lists and what you paid are <strong>locked (encrypted) on your phone</strong>. The lock uses strong encryption (XChaCha20-Poly1305). The key is kept in your phone's secure storage (the iPhone Keychain or the Android Keystore).</p>
+<p><strong>On the web version</strong>, the same things are saved in your browser's storage, and the key is saved in that same browser storage. That makes the protection weaker than on a phone: anyone who can open your browser's saved data could also read the key. If you share a computer, use the phone app instead.</p>
+<p><strong>Your country.</strong> When you first open the app, it guesses your country from your phone's (or browser's) language and region settings. Nothing is looked up online to do this. The country you pick is saved on your phone only. It is used to suggest common places to buy bitcoin.</p>
+<h2 id="who-your-phone-talks-to">Who your phone talks to</h2>
+<p>The app talks to a few outside services. They are not run by us. Each one has its own privacy policy. Whenever your phone talks to a service on the internet, that service can see your <strong>IP address</strong> (a number that can show roughly where you are) and basic <strong>device or browser details</strong> (for example, the browser type on the web version). It never sees your name, email or secret words, because the app doesn't have them.</p>
+<p><strong>1. Bitcoin price services — automatic.</strong> When the app opens, and when you look at prices, it downloads the latest Bitcoin prices. No address is sent, only the dates of the prices it needs.</p>
+<ul>
+  <li>Bitstamp — <a href="https://www.bitstamp.net/privacy-policy/" rel="noopener noreferrer">privacy policy</a></li>
+  <li>mempool.space — <a href="https://mempool.space/privacy-policy" rel="noopener noreferrer">privacy policy</a></li>
+  <li>CoinGecko — <a href="https://www.coingecko.com/en/privacy" rel="noopener noreferrer">privacy policy</a></li>
+</ul>
+<p>To suggest what you may have paid, the app also asks CoinGecko or mempool.space for the price on the <strong>date</strong> of a payment. It sends the date, not your address.</p>
+<p>The app already includes years of past prices, so most of the price chart works without the internet.</p>
+<p><strong>2. Address look-ups — only after you say OK.</strong> To show your balance and payments, the app asks a public Bitcoin service about your public address. It does this only after you add an address and tap <strong>"OK, show my balance"</strong>. After that, it looks again only when you add another address or tap <strong>"Check for updates"</strong> on your balance.</p>
+<ul>
+  <li>Blockstream (blockstream.info), used first — <a href="https://blockstream.com/privacy/" rel="noopener noreferrer">privacy policy</a></li>
+  <li>mempool.space, used if Blockstream doesn't answer — <a href="https://mempool.space/privacy-policy" rel="noopener noreferrer">privacy policy</a></li>
+</ul>
+<p>What they receive: your <strong>public address</strong>, your IP address and device details. For a "whole wallet" key, your phone works out the wallet's addresses itself and asks about those addresses. The key itself is never sent.</p>
+<p><strong>Good to know:</strong> Bitcoin addresses and their payments are already public on the Bitcoin blockchain, so anyone can look them up. But when <strong>you</strong> look an address up, the service can see that someone at your IP address is interested in it. That can hint that the address is yours. If that worries you, you can use the lessons and the example wallet without adding your own address.</p>
+<p><strong>3. Links that leave the app.</strong> Some buttons open another website in your browser. For example, places to buy bitcoin (like Coinbase or Kraken), phone wallets, lesson sources and licenses. Once you leave the app, that website's own privacy policy applies. Exchanges will usually ask for your ID.</p>
+<p>Nothing else: the app's fonts and pictures are built in, and the app does not download updates or content from us in the background.</p>
+<h2 id="backups">Backups</h2>
+<ul>
+  <li><strong>iPhone:</strong> your saved app data and its key are included in your iCloud backup and in encrypted computer backups. If you restore a new iPhone from one of those, your saved addresses come back. If you restore from a computer backup that is not encrypted, the key is not included, so the app can't open your saved addresses. It will tell you and offer to start over.</li>
+  <li><strong>Android:</strong> the app is set up so your saved addresses and the key are <strong>not</strong> included in Google backups. On a new phone, add your public address again.</li>
+  <li><strong>Web:</strong> nothing is backed up. Clearing your browser data removes everything.</li>
+</ul>
+<p>We never see any of your backups.</p>
+<h2 id="deleting-your-data">Deleting your data</h2>
+<ul>
+  <li>In the app, go to <strong>Settings → Your data → Delete all my data</strong>. This removes everything listed above from your phone, including the encryption key, and puts your settings back to the start.</li>
+  <li>Deleting the app also removes its saved data. On iPhone, a small locked key may stay in the phone's Keychain after you delete the app. It can't open anything, because the data it locked is gone. To remove it too, use "Delete all my data" before deleting the app.</li>
+  <li>On the web version, "Delete all my data" works the same way, or you can clear this site's data in your browser settings.</li>
+</ul>
+<p>Because we don't have your data, there is nothing for us to delete on our side. The outside services above keep their own records (for example, server logs). Ask them directly using the links above.</p>
+<h2 id="kids">Kids</h2>
+<p>Daybreak BTC is not made for children under 13. We don't knowingly collect information from anyone, including children.</p>
+<h2 id="our-website">Our website</h2>
+<p>When you visit daybreakbtc.com, the company that hosts the website receives your IP address and browser details, like any website. Our website has no cookies, no trackers and no ads.</p>
+<h2 id="changes">Changes</h2>
+<p>If we change how the app handles your information, we will update this page and change the effective date at the top. If we ever add paid features or anything that sends data to us, we will update this policy before that change goes live.</p>
+<h2 id="contact">Contact</h2>
+<p>Questions? Email us at agglogan@gmail.com.</p>
+</main>
+<footer class="foot"><a href="../">Home</a> · <a href="./">Privacy</a></footer>
+</body>
+</html>
