@@ -9,9 +9,14 @@ is in this folder.
 | `privacy/index.html` | `https://daybreakbtc.com/privacy` (and `/privacy/`) — works on any static host, no rewrites |
 | `404.html` | shown for unknown paths (GitHub Pages, Netlify and Porkbun use this name) |
 | `styles.css` | shared styles; colors from the app theme (`src/theme/tokens.ts`) |
-| `logo.svg`, `favicon.ico`, `favicon.png`, `apple-touch-icon.png` | the ₿ mark from the app's Welcome screen (orange circle). The app's `assets/icon.png` and `assets/favicon.png` are still the Expo template icons, so they were **not** copied. |
+| `logo.png` | full Daybreak BTC logo (sun + waves + wordmark), landing hero and 404 |
+| `mark.png` | the sun + waves mark, privacy-page header (next to the "Daybreak BTC" text) |
+| `favicon.ico` (16/32/48), `favicon-32.png`, `icon-192.png`, `apple-touch-icon.png` | icons from the mark |
 | `CNAME` | `daybreakbtc.com` (used by GitHub Pages; harmless elsewhere) |
 | `build_privacy.py` | regenerates `privacy/index.html` from `docs/privacy-policy.md` |
+
+All images are generated from the app's master logo (`assets/brand/daybreak-logo-original.jpg`) by
+`python3 scripts/brand-assets.py site` (run from the app repo root); don't hand-edit them.
 
 ## Editing the policy
 
